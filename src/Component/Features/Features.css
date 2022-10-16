@@ -1,0 +1,51 @@
+.feature-container{
+  background-color: rgb(240, 230, 230);
+  height: 600px;
+  margin-top: 50px;
+}
+.above{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+}
+.left-feature{
+ padding-top: 50px;
+ text-align: start;
+ margin-left: 100px;
+}
+.right-feature{
+  padding-top: 80px;
+  text-align: start;
+  color: rgb(71, 68, 68);
+  font-size: small;
+  margin-left: 200px;
+}
+.below{
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 280px;
+}
+.transcation, .protection, .organize{
+  background-color: white;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+  margin-left: 70px;
+  padding-right: 40px;
+  width: 260px;
+}
+.h3{
+  margin-top: 50px;
+  padding-left: 15px;
+}
+.description{
+  font-size: 16px;
+  color: rgb(71, 68, 68);
+  padding-left: 15px;
+}
+.icons-features{
+  padding-top: 10px;
+  padding-left: 15px;
+}

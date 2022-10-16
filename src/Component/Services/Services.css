@@ -1,0 +1,42 @@
+.service{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  height: 600px;
+  background-color: rgb(240, 230, 230);
+}
+.left-section{
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: left;
+}
+.transfer, .cashflow, .monitoring{
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  margin-top: 43px;
+}
+.span{
+  font-size: 45px;
+  color: rgb(94, 91, 91);
+  margin-top: 10px;
+  font-weight: bold;
+}
+.h2{
+  line-height: 18px;
+}
+.p1{
+  color: rgb(94, 91, 91);
+  font-size: 14px;
+}
+.right-section{
+  margin-top: 60px;
+  text-align: left;
+  padding-left: 150px;
+}
+.serviceImage{
+  width: 400px;
+  height: 400px;
+  padding-top: 50px;
+}
+
+

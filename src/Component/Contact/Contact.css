@@ -1,0 +1,66 @@
+.contact-container{
+  border-top: 1px solid black;
+  height: 650px;
+}
+.a-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img-contact{
+  width: 580px;
+  height: 270px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+.paragraphs{
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.button, .button2{
+  display: inline-block;
+  margin-top: 10px;
+}
+.Googleplay, .appstore{
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  width: 130px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  line-height: 15px;
+  font-size: 14px;
+  text-align: left;
+}
+.spn1, .spn2{
+  font-size: 8px;
+}
+.icon-btn{
+  padding-top: 6px;
+}
+.b-section{
+  background-color: black;
+  color: white;
+  height: 280px; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 30px;
+  margin-top: 20px;
+}
+.fines-p{
+  font-size: 12px;
+  text-align: start;
+  margin-left: 100px;
+}
+.fines-header{
+  margin-left: -50px ;
+}
+.social-media{
+  margin-right: 80px ;
+  text-align: start;
+  font-size: 14px;
+  margin-top: 30px;
+}
+

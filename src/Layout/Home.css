@@ -1,0 +1,84 @@
+
+.container{
+  margin-top: 55px;
+  background-color: black;
+   height: 600px; 
+}
+.image{
+  padding-top: 15px;
+}
+.left-side-contents{
+  position: absolute;
+  top: 140px;
+  margin-left: 80px;
+  text-align:start;
+  width: 300px;
+  font-size: 22px;
+  color: white;
+}
+.paragraph{
+  font-size: 14px;
+}
+.button{
+  width: 140px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.right-side-contents{
+  position: absolute;
+  top: 140px;
+  text-align:start;
+  width: 230px;
+  color: rgb(167, 164, 164);
+  margin-left: 1000px;
+  font-size: 14px;
+}
+.review{
+  font-size: 12px;
+  margin-top: 20px;
+  color: rgb(167, 164, 164);
+}
+.strong{
+  color:white;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 70px 1fr;
+}
+.user1, .user2, .user3, .user4{
+width: 20px;
+border-radius: 20px;
+margin-top: 10px;
+border: 2px solid white;
+}
+.user1{
+  position: absolute;
+  right: 210px;
+}
+.user2{
+  position: absolute;
+  right: 200px;
+  
+}
+.user3{
+  position: absolute;
+  right: 190px;
+ 
+}
+.user4{
+  position: absolute;
+  right: 180px;
+}
+.number-of-users,
+.number{
+  font-size: 36px;
+  color: white;
+  margin-bottom: 0;
+}
+.downloaded, .total-active-users{
+  color:rgb(167, 164, 164);
+  margin-top: 2px;
+}
+

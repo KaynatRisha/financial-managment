@@ -1,0 +1,52 @@
+.log{
+  width: 300px;
+  border: 1px solid #d6d7da;
+  padding: 0px 15px 15px 15px;
+  border-radius: 5px;
+  font-family: arial;
+  line-height: 16px;
+  color: #333333;
+  font-size: 14px;
+  background: #ffffff;
+  margin: 100px auto;
+}
+.formGroup{
+  display: flex;
+  flex-direction: column;
+  padding-top: 13px;
+}
+.formLable{
+  margin-bottom: 2px;
+  font-weight: 500;
+  text-align: left;
+}
+.formField{
+  padding: 10px;
+  border: solid 1px #BDC7D8;
+}
+.formFieldErrorMessage{
+  color: #e11d48;
+  margin-top: 1px;
+  text-align: left;
+  font-size: 12px;
+}
+.formActions{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.formSubmitBtn{
+  background-color:#3ac162;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
+  border: none;
+}
+.formSubmitBtn:hover{
+  cursor: pointer;
+  color: black;
+}
+.sign-link{
+  font-size: 12px;
+  padding-left: 10px;
+}
